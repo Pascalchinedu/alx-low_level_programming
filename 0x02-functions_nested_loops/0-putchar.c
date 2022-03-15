@@ -5,7 +5,6 @@
  */
 main()
 {
-	char c = '_putchar';
-	printf("%c\n");
-	return c;
+	printf("_putchar\n");
+	return 0;
 }
