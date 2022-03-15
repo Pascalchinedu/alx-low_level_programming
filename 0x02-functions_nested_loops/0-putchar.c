@@ -1,10 +1,15 @@
 #include <main.h>
 /**
- * main - Entry point
- * Return: 0
+ * main - Prints _putchar
+ * Return: Always 0 (success)
  */
-main()
+int main(void)
 {
-	printf("_putchar\n");
+	int str[] = ('_', 'p', 'u', 't', 'c', 'h', 'a', 'r');
+	int i, size;
+	size = sizeof(str) / sizeof(int);
+	for (i = 0; i < size; i++)
+		_putchar(str[i]);
+	_putchar('\n');
 	return 0;
 }
