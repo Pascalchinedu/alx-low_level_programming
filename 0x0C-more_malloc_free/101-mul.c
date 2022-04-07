@@ -1,6 +1,6 @@
 #include "main.h"
-#include <stdlib.h>
 #include <stdio.h>
+#include <stdlib.h>
 #include <ctype.h>
 /**
  * _is_zero - determines if any number is zero
@@ -32,7 +32,6 @@ void _is_zero(char *argv[])
 		exit(0);
 	}
 }
-
 /**
  * _initialize_array - set memery to zero in a new array
  * @ar: char array.
@@ -49,7 +48,6 @@ char *_initialize_array(char *ar, int lar)
 	ar[lar] = '\0';
 	return (ar);
 }
-
 /**
  * _checknum - determines length of the number
  * and checks if number is in base 10.
@@ -71,7 +69,6 @@ int _checknum(char *argv[], int n)
 
 	return (ln);
 }
-
 /**
  * main - Entry point.
  * program that multiplies two positive numbers.
